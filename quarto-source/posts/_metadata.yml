@@ -1,0 +1,5 @@
+site-root: ../..
+is-blog: true
+is-post: true
+author: "Saad Murtaza Khan"
+date-format: "MMMM D, YYYY"
