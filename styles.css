@@ -6,3 +6,12 @@
 .listing-no-matching{display:none}header.below-banner{position:static}
 /* Quarto relocates page titles into this shared block. */
 #title-block-header{position:static;background:transparent;border:0;margin:40px 0 0;padding:0}#title-block-header:empty{display:none}#title-block-header h1{font:normal 40px/1.15 Georgia,serif;letter-spacing:-1px;margin:0}.blog-heading{padding:18px 0 20px}.page-content>section{padding-top:24px}#research .section-head{display:none}#about>.eyebrow{display:none}.cv-profile{margin-top:0}.page-content>#contact{padding-top:24px}
+
+/* Reader-controlled colors. The original illustration retains its white canvas. */
+:root{color-scheme:light}.theme-toggle{flex-shrink:0;border:1px solid var(--line);border-radius:5px;padding:6px 10px;background:var(--paper);color:var(--ink);font-size:12px;cursor:pointer;white-space:nowrap}.theme-toggle:focus-visible{outline:2px solid var(--ink);outline-offset:4px}
+html[data-theme="dark"]{color-scheme:dark;--paper:#14211f;--ink:#e2ece6;--muted:#b4c3bb;--line:#3d5149;--accent:#b9cf86}
+html[data-theme="dark"] header.below-banner{background:var(--paper)}
+html[data-theme="dark"] :is(.cv-summary,.cv-role,.cv-location,.cv-small,.cv-job p,.cv-degree p,.cv-skills dd,.project p,.intro,.skills,.tag,.project-num){color:var(--muted)}
+html[data-theme="dark"] :is(.sample-note,.post-content pre){background:#20322c;color:var(--ink)}
+html[data-theme="dark"] a:hover{color:#c2df9b}html[data-theme="dark"] .filter.active{background:var(--ink);color:var(--paper)}
+@media(max-width:600px){.below-banner nav{gap:15px;padding:18px 0}.theme-toggle{padding:5px 8px}}
