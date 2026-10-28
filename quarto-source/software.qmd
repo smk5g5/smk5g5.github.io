@@ -1,8 +1,0 @@
----
-title: "Software"
-is-software: true
----
-
-```{=html}
-<section id="software"><div class="section-head"><div><h1 class="page-heading">Software & resources</h1></div><p>Reusable methods and portable workflows for biological discovery.</p></div><div class="tools"><article><h3>Single-cell WDL workflows</h3><p>Modular, containerized pipelines from preprocessing and quality control through differential expression. Portable across Terra, cloud, and HPC.</p><a href="https://dockstore.org/organizations/PettilabMGH/collections/Singlecellwdls" target="_blank" rel="noopener">Explore on Dockstore ↗</a></article><article><h3>MU-PseUDeep</h3><p>Trained models and inference code for pseudouridine prediction using RNA sequence and predicted secondary structure.</p><a href="https://github.com/smk5g5/MU-PseUDeep" target="_blank" rel="noopener">View on GitHub ↗</a></article><article><h3>PGen</h3><p>A parallelized genomic variant analysis workflow for large genome collections, developed with Pegasus and XSEDE HPC.</p><a href="https://github.com/pegasus-isi/PGen-GenomicVariations-Workflow" target="_blank" rel="noopener">View on GitHub ↗</a></article></div></section>
-```

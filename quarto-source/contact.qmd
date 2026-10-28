@@ -1,8 +1,0 @@
----
-title: "Contact"
-is-contact: true
----
-
-```{=html}
-<div class="contact" id="contact"><div><h1 class="page-heading" style="margin-top:15px">Contact</h1><p>For conversations about spatial genomics, tumor immunology, computational methods, or research collaborations, get in touch.</p><a href="mailto:skhan41@mgh.harvard.edu">skhan41@mgh.harvard.edu ↗</a></div><div class="contact-links"><a href="https://github.com/smk5g5" target="_blank" rel="noopener">GitHub ↗</a><a href="https://www.linkedin.com/in/saad-murtaza-khan/" target="_blank" rel="noopener">LinkedIn ↗</a><a href="https://scholar.google.com/citations?user=z_JS9WYAAAAJ&hl=en" target="_blank" rel="noopener">Google Scholar ↗</a><a href="https://www.researchgate.net/profile/Saad-Khan-30" target="_blank" rel="noopener">ResearchGate ↗</a></div></div>
-```

@@ -1,5 +1,0 @@
-<div class="blog-posts">
-<% for (const item of items) { %>
-<article class="blog-list-item"><div class="blog-date"><%= item.date %></div><div><h2><a href="<%= item.path %>"><%= item.title %></a></h2><p><%= item.description || "" %></p><div class="tags"><% for (const category of (item.categories || [])) { %><span class="tag"><%= category %></span><% } %></div><a class="read-post" href="<%= item.path %>">Read post ↗</a></div></article>
-<% } %>
-</div>

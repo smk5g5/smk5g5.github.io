@@ -1,8 +1,0 @@
-/.quarto/
-/_site/
-/_preview/
-/.DS_Store
-/.env
-/private-drafts/
-
-**/*.quarto_ipynb
