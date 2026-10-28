@@ -32,3 +32,9 @@ The uploaded CV will be public; review its contact and reference details before 
 ## Edit
 
 Each HTML file contains its own embedded CSS; edit corresponding pages for content changes. Publication data is in the `publications` JavaScript array in `publications.html`. Replace the PDF using the same filename to update the downloadable CV. The About page is transcribed from the supplied LaTeX. The header image comes from the supplied illustrated header HTML.
+
+## Publication list
+
+The Publications page contains 17 journal papers, 3 preprints for which no full journal version was identified, and 3 book chapters/conference papers. It is rendered directly in HTML, with browser-side search and category/first-author filters. `publications-data.json` retains bibliographic data and source links for editing/reference; the page does not fetch it at runtime. Edit both files when changing entries.
+
+The list was expanded from the supplied CV using publisher/Crossref, PubMed, and author/lab records. Google Scholar blocked direct retrieval on October 28, 2026, so this is not certified as an exhaustive export of that profile. Conference abstracts, datasets, and duplicate preprint versions of published articles are not included in the journal-paper count. The earlier m6A preprint is represented by its 2026 Cancers publication. The TREM2 paper is dated 2023 (the journal record), rather than 2024 in the supplied CV.
